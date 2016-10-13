@@ -247,7 +247,7 @@ html, body {
 }
 
 .demo-main {
-    margin-top: -35vh;
+    display: block;
     -webkit-flex-shrink: 0;
     -ms-flex-negative: 0;
     flex-shrink: 0;
