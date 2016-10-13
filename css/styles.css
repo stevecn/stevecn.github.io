@@ -285,3 +285,18 @@ html, body {
     font-size: 13px;
 }
 
+.entry-meta {
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.entry-meta a {
+    text-decoration:none;
+    color:#757575;
+    font-size:12px;
+    line-height:16px
+}
+
