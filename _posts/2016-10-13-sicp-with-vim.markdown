@@ -1,4 +1,9 @@
-翻译
+---
+layout: post
+title:  "Sicp with Vim"
+date:   2016-10-13 
+categories: jekyll update
+---
 
 #为学习SICP配置vim的scheme开发环境
 
