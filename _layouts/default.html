@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-  {% include head.html %}
-
-    <body>
-
+{% include head.html %}>
+<body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     {% include header.html %}
+    <main class="mdl-layout__content">
+        <div class="mdl-layout__tab-panel is-active" id="overview">
+            {{ content }}
+        </div>
+        {% include footer.html %}>
+    </main>
+</div>
+<!--<a href="https://github.com/google/material-design-lite/blob/mdl-1.x/templates/text-only/" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button&#45;&#45;raised mdl-js-ripple-effect mdl-color&#45;&#45;accent mdl-color-text&#45;&#45;accent-contrast">View Source</a>-->
+<script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+</body>
 
-    <div class="page-content">
-      <div class="wrap">
-      {{ content }}
-      </div>
-    </div>
-
-    {% include footer.html %}
-
-    </body>
+</body>
 </html>
