@@ -293,3 +293,7 @@ html, body {
     line-height:16px
 }
 
+h3 a {
+    text-decoration: none;
+}
+
