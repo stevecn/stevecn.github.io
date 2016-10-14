@@ -15,7 +15,7 @@ layout: default
                     <div class="mdl-card__media"
                          style="background-image: url('http://mdlwp.com/demo/wp-content/uploads/2015/07/cityscape-beach.jpg'); ">
                         <header>
-                            <h3 style="">{{ post.title }}</h3>
+                            <h3 style="">{{ page.title }}</h3>
                         </header><!-- .entry-header -->
                     </div>
 
@@ -32,13 +32,13 @@ layout: default
                             <span class="posted-on"><a href="http://mdlwp.com/demo/aliquam-lorem-ante-dapibus-in/"
                                                        rel="bookmark">
                                 <time class="entry-date published" datetime="2015-07-10T18:46:38+00:00">
-                                    {{ post.date | date: "%b %-d, %Y" }}
+                                    {{ page.date | date: "%b %-d, %Y" }}
                                 </time>
                             </a></span></div><!-- .entry-meta -->
                     </div>
 
                     <div class="entry-content mdl-color-text--grey-600 mdl-card__supporting-text">
-                        {{ post.content }}
+                        {{ page.content }}
                         <div class="mdl-card__menu material-social">
                             <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
                                 <i class="material-icons">share</i>
