@@ -36,6 +36,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eg
 
 Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum.
 
+
+{% highlight c %}
+#include <stdio.h>
+
+int main()
+{
+    printf("hello world\n");
+    return 0;
+}
+{% endhighlight %}
+
 ```html
 <html>
   <head>
