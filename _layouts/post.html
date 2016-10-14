@@ -12,7 +12,17 @@ layout: default
         </div>
         <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
           <div class="entry-meta">
-            <strong class="byline"> <span class="author vcard"><a class="url fn n" href="http://mdlwp.com/demo/author/dmin/">BragInteractive</a></span></strong> <span class="posted-on"><a href="http://mdlwp.com/demo/quisque-libero-metus-condimentum-nec/" rel="bookmark"><time class="entry-date published updated" datetime="2015-07-10T18:45:20+00:00">July 10, 2015</time></a></span>				</div><!-- .entry-meta -->
+            <strong class="byline">
+                <span class="author vcard">
+                    <a class="url fn n">Steve Lee</a>
+                </span>
+            </strong>
+              <span class="posted-on">
+                  <a href="http://mdlwp.com/demo/quisque-libero-metus-condimentum-nec/" rel="bookmark">
+                      <time class="entry-date published updated"">{{ page.date | date: "%b %-d, %Y" }}</time>
+                  </a>
+              </span>
+          </div>
         </div>
         <h3>{{ page.title }}</h3>
         {{ content }}
