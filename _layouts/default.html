@@ -1,20 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en-US">
 {% include head.html %}
-<body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
-<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-    {% include header.html %}
-    <main class="mdl-layout__content">
-        <div class="mdl-layout__tab-panel is-active" id="overview">
-            {{ content }}
-        </div>
-        {% include footer.html %}>
-    </main>
-</div>
-<!--<a href="https://github.com/google/material-design-lite/blob/mdl-1.x/templates/text-only/" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button&#45;&#45;raised mdl-js-ripple-effect mdl-color&#45;&#45;accent mdl-color-text&#45;&#45;accent-contrast">View Source</a>-->
-<script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
-</body>
 
+<body class="home blog group-blog mdl-color-text--grey-700 mdl-base">
+<div id="page" class="hfeed site mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+    {% include header.html %}
+
+    <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">MDLWP Demo</span>
+        <nav class="mdl-navigation"><a href="/demo/"
+                                       class="mdl-navigation__link menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-32 is-active">Home</a>
+            <a href="http://mdlwp.com/demo/page-layout/"
+               class="mdl-navigation__link menu-item menu-item-type-post_type menu-item-object-page menu-item-35">Default
+                Page</a>
+            <a href="http://mdlwp.com/demo/ribbon-page/"
+               class="mdl-navigation__link menu-item menu-item-type-post_type menu-item-object-page menu-item-71">Ribbon
+                Page</a>
+            <a href="http://mdlwp.com/demo/setup-video/"
+               class="mdl-navigation__link menu-item menu-item-type-post_type menu-item-object-page menu-item-63">Setup
+                Video</a>
+            <a href="/demo/portfolio"
+               class="mdl-navigation__link menu-item menu-item-type-custom menu-item-object-custom menu-item-124">Portfolio</a>
+        </nav>
+    </div>
+
+
+    <main class="mdl-layout__content">
+
+        {{ content }}
+
+        {% include footer.html %}>
+
+    </main> <!-- .mdl-layout__content -->
+</div><!-- #page -->
+
+<!--<script type='text/javascript' src='http://mdlwp.com/demo/wp-content/plugins/material-social/includes/js/material-social.js?ver=1.0.0'></script>-->
+<!--<script type='text/javascript' src='http://mdlwp.com/demo/wp-content/plugins/material-social/bower_components/rrssb/js/rrssb.min.js?ver=1.0.0'></script>-->
+<!--<script type='text/javascript' src='http://mdlwp.com/demo/wp-content/plugins/mdlwp-masonry/includes/js/isotope.pkgd.min.js?ver=2.2.0'></script>-->
+<!--<script type='text/javascript' src='http://mdlwp.com/demo/wp-content/plugins/mdlwp-masonry/bower_components/imagesloaded/imagesloaded.pkgd.min.js?ver=1.0.0'></script>-->
+<script type='text/javascript'
+        src='http://mdlwp.com/demo/wp-content/plugins/mdlwp-masonry/includes/js/mdlwp-masonry.js?ver=1.0.0'></script>
+<script type='text/javascript'
+        src='http://mdlwp.com/demo/wp-content/plugins/mdlwp-portfolio/includes/js/jquery.mixitup.min.js?ver=2.1.9'></script>
+<script type='text/javascript' src='//storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js?ver=1.0.4'></script>
 </body>
 </html>

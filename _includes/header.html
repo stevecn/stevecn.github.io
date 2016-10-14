@@ -1,16 +1,37 @@
-<header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
-    <div class="mdl-layout--large-screen-only mdl-layout__header-row">
-    </div>
-    <div class="mdl-layout--large-screen-only mdl-layout__header-row">
-        <h3><a href="/">Steve's Blog</a></h3>
-    </div>
-    <div class="mdl-layout--large-screen-only mdl-layout__header-row">
-    </div>
-    <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
-        <a href="#overview" class="mdl-layout__tab is-active">Overview</a>
-        <a href="#features" class="mdl-layout__tab">Features</a>
-        <a href="#features" class="mdl-layout__tab">Details</a>
-        <a href="#features" class="mdl-layout__tab">Technology</a>
-        <a href="#features" class="mdl-layout__tab">FAQ</a>
+<header id="masthead" class="site-header mdl-layout__header" role="banner">
+    <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span class="mdl-layout-title">MDLWP Demo</span>
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+
+        <div class="mdlwp-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+
+            <form role="search" method="get" class="search-form" action="http://mdlwp.com/demo/">
+                <label class="mdl-button mdl-js-button mdl-button--icon" for="fixed-header-drawer-exp">
+                    <i class="material-icons">search</i>
+                </label>
+                <div class="mdl-textfield__expandable-holder">
+                    <input class="mdl-textfield__input" type="text" value="" name="s" id="fixed-header-drawer-exp"/>
+                </div>
+            </form>
+        </div>
+
+        <!-- Navigation. We hide it in small screens. -->
+        <div class="mdlwp-navigation-container">
+            <nav class="mdl-navigation mdl-layout--large-screen-only"><a href="http://mdlwp.com/demo/setup-video/"
+                                                                         class="mdl-navigation__link menu-item menu-item-type-post_type menu-item-object-page menu-item-65">Setup
+                Video</a>
+                <a href="http://mdlwp.com/demo/ribbon-page/"
+                   class="mdl-navigation__link menu-item menu-item-type-post_type menu-item-object-page menu-item-72">Ribbon
+                    Page</a>
+                <a href="http://mdlwp.com/demo/page-layout/"
+                   class="mdl-navigation__link menu-item menu-item-type-post_type menu-item-object-page menu-item-30">Page</a>
+                <a href="/demo/"
+                   class="mdl-navigation__link menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-31 is-active">Home</a>
+            </nav>
+        </div>
+
+
     </div>
 </header>
