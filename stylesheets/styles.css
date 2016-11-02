@@ -165,20 +165,6 @@ header ul a {
   text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
 }
 
-header ul a:hover {
-  line-height: 1;
-  font-size: 11px;
-  color: red;
-  /*color: rgba(255, 255, 255, 0.8);*/
-  display: block;
-  text-align: center;
-  font-weight: 400;
-  padding-top: 6px;
-  height: 40px;
-  text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
-  transition: .2s ease-out;
-}
-
 header ul a strong {
   font-size: 14px;
   display: block;
@@ -186,6 +172,13 @@ header ul a strong {
   -webkit-font-smoothing: antialiased;
 }
 
+header ul a strong:hover {
+  font-size: 14px;
+  display: block;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  transition: .5s ease-out;
+}
 
 section {
   padding: 15px 20px;
