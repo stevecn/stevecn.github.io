@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>MDLWP Demo - Just another WordPress site</title>
+
+	<meta name="description" content="Just another WordPress site"/>
+	<meta name="robots" content="noindex,follow,noodp"/>
+
+	<!--<link rel="alternate" type="application/rss+xml" title="MDLWP Demo &raquo; Feed" href="http://mdlwp.com/demo/feed/" />-->
+	<!--<link rel="alternate" type="application/rss+xml" title="MDLWP Demo &raquo; Comments Feed" href="http://mdlwp.com/demo/comments/feed/" />-->
+	<!--<link rel='stylesheet' id='material-social-css-css'  href='http://mdlwp.com/demo/wp-content/plugins/material-social/includes/css/style.min.css?ver=1.0.0' type='text/css' media='all' />-->
+	<!--<link rel='stylesheet' id='mdlwp-masonry-css-css'  href='http://mdlwp.com/demo/wp-content/plugins/mdlwp-masonry/includes/css/style.min.css?ver=1.0.0' type='text/css' media='all' />-->
+	<!--<link rel='stylesheet' id='mdlwp-portfolio-css-css'  href='http://mdlwp.com/demo/wp-content/plugins/mdlwp-portfolio/includes/css/style.min.css?ver=1.0.0' type='text/css' media='all' />-->
+	<link rel='stylesheet' id='mdlwp-mdl-css-css'
+		  href='//storage.googleapis.com/code.getmdl.io/1.0.4/material.indigo-pink.min.css?ver=4.4.5' type='text/css'
+		  media='all'/>
+	<link rel='stylesheet' id='mdlwp-mdl-icons-css'
+		  href='//fonts.googleapis.com/icon?family=Material+Icons&#038;ver=4.4.5' type='text/css' media='all'/>
+	<link rel='stylesheet' id='mdlwp-mdl-roboto-css'
+		  href='//fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C500%2C700&#038;ver=4.4.5' type='text/css'
+		  media='all'/>
+	<link rel='stylesheet' id='mdlwp-style-css'
+		  href='http://mdlwp.com/demo/wp-content/themes/mdlwp/style.min.css?ver=4.4.5' type='text/css' media='all'/>
+	<!--<link rel='stylesheet' id='material-design-icon-styles-css'  href='http://mdlwp.com/demo/wp-content/plugins/material-design-icons/bower_components/mdi/css/materialdesignicons.min.css?ver=0.0.5' type='text/css' media='all' />-->
+	<!--<link rel='stylesheet' id='material-design-icon-styles-admin-css'  href='http://mdlwp.com/demo/wp-content/plugins/material-design-icons/css/admin-styles.css?ver=0.0.5' type='text/css' media='all' />-->
+	<!--<link rel='stylesheet' id='material-design-icon-styles-size-css'  href='http://mdlwp.com/demo/wp-content/plugins/material-design-icons/css/size-styles.css?ver=0.0.5' type='text/css' media='all' />-->
+	<!--<script type='text/javascript' src='http://mdlwp.com/demo/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>-->
+	<!--<script type='text/javascript' src='http://mdlwp.com/demo/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>-->
+
+</head>
+
+<body class="home blog group-blog mdl-color-text--grey-700 mdl-base">
+<div id="page" class="hfeed site mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+	<header id="masthead" class="site-header mdl-layout__header" role="banner">
+		<div class="mdl-layout__header-row">
+			<!-- Title -->
+			<span class="mdl-layout-title">MDLWP Demo</span>
+			<!-- Add spacer, to align navigation to the right -->
+			<div class="mdl-layout-spacer"></div>
+
+			<div class="mdlwp-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+
+				<form role="search" method="get" class="search-form" action="http://mdlwp.com/demo/">
+					<label class="mdl-button mdl-js-button mdl-button--icon" for="fixed-header-drawer-exp">
+						<i class="material-icons">search</i>
+					</label>
+					<div class="mdl-textfield__expandable-holder">
+						<input class="mdl-textfield__input" type="text" value="" name="s" id="fixed-header-drawer-exp"/>
+					</div>
+				</form>
+			</div>
+
+			<!-- Navigation. We hide it in small screens. -->
+			<div class="mdlwp-navigation-container">
+				<nav class="mdl-navigation mdl-layout--large-screen-only"><a href="http://mdlwp.com/demo/setup-video/"
+																			 class="mdl-navigation__link menu-item menu-item-type-post_type menu-item-object-page menu-item-65">Setup
+					Video</a>
+					<a href="http://mdlwp.com/demo/ribbon-page/"
+					   class="mdl-navigation__link menu-item menu-item-type-post_type menu-item-object-page menu-item-72">Ribbon
+						Page</a>
+					<a href="http://mdlwp.com/demo/page-layout/"
+					   class="mdl-navigation__link menu-item menu-item-type-post_type menu-item-object-page menu-item-30">Page</a>
+					<a href="/demo/"
+					   class="mdl-navigation__link menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-31 is-active">Home</a>
+				</nav>
+			</div>
+
+
+		</div>
+	</header>
+
+	<div class="mdl-layout__drawer">
+		<span class="mdl-layout-title">MDLWP Demo</span>
+		<nav class="mdl-navigation"><a href="/demo/"
+									   class="mdl-navigation__link menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-32 is-active">Home</a>
+			<a href="http://mdlwp.com/demo/page-layout/"
+			   class="mdl-navigation__link menu-item menu-item-type-post_type menu-item-object-page menu-item-35">Default
+				Page</a>
+			<a href="http://mdlwp.com/demo/ribbon-page/"
+			   class="mdl-navigation__link menu-item menu-item-type-post_type menu-item-object-page menu-item-71">Ribbon
+				Page</a>
+			<a href="http://mdlwp.com/demo/setup-video/"
+			   class="mdl-navigation__link menu-item menu-item-type-post_type menu-item-object-page menu-item-63">Setup
+				Video</a>
+			<a href="/demo/portfolio"
+			   class="mdl-navigation__link menu-item menu-item-type-custom menu-item-object-custom menu-item-124">Portfolio</a>
+		</nav>
+	</div>
+
+
+	<main class="mdl-layout__content">
+		<div id="content" class="site-content">
+
+			<div id="primary" class="content-area">
+				<main id="main" class="site-main mdl-grid mdlwp-900" role="main">
+
+
+					<div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--2dp">
+						<article id="post-60"
+								 class="post-60 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-city tag-sky tag-tag">
+
+							<div class="mdl-card__media"
+								 style="background-image: url('http://mdlwp.com/demo/wp-content/uploads/2015/07/cityscape-beach.jpg'); ">
+								<header>
+									<h3><a style="" href="http://mdlwp.com/demo/aliquam-lorem-ante-dapibus-in/"
+										   rel="bookmark">Aliquam lorem ante dapibus in</a></h3></header>
+								<!-- .entry-header -->
+							</div>
+
+							<div class="entry-content mdl-color-text--grey-600 mdl-card__supporting-text">
+								<p>In auctor lobortis lacus. In auctor lobortis lacus. Cras non dolor. Praesent egestas
+									tristique nibh. Maecenas malesuada.</p>
+								<p>Etiam vitae tortor. Etiam feugiat lorem non metus. Proin faucibus arcu quis ante.
+									Fusce ac felis sit amet ligula pharetra condimentum. Donec venenatis vulputate
+									lorem.</p>
+								<p>
+									<a class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect"
+									   href="http://mdlwp.com/demo/aliquam-lorem-ante-dapibus-in/">Read More</a></p>
+
+							</div><!-- .entry-content -->
+
+							<footer class="entry-footer meta mdl-card__actions mdl-card--border">
+
+								<div class="avatar-img">
+									<img alt=''
+										 src='http://1.gravatar.com/avatar/70cf167a8a0a7fc3d83950b60cb537a7?s=32&#038;d=mm&#038;r=g'
+										 srcset='http://1.gravatar.com/avatar/70cf167a8a0a7fc3d83950b60cb537a7?s=64&amp;d=mm&amp;r=g 2x'
+										 class='avatar avatar-32 photo' height='32' width='32'/></div>
+
+								<div class="entry-meta">
+									<strong class="byline"> <span class="author vcard"><a class="url fn n"
+																						  href="http://mdlwp.com/demo/author/dmin/">BragInteractive</a></span></strong>
+									<span class="posted-on"><a
+											href="http://mdlwp.com/demo/aliquam-lorem-ante-dapibus-in/" rel="bookmark">
+										<time class="entry-date published" datetime="2015-07-10T18:46:38+00:00">July 10,
+											2015
+										</time>
+									</a></span></div><!-- .entry-meta -->
+
+							</footer><!-- .entry-footer -->
+						</article><!-- #post-## -->
+					</div><!-- .mdl-cell -->
+
+
+					<div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--2dp">
+						<article id="post-58"
+								 class="post-58 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-animals tag-sheep tag-tag">
+
+							<div class="mdl-card__media"
+								 style="background-image: url('http://mdlwp.com/demo/wp-content/uploads/2015/07/animal-sheep.jpg'); ">
+								<header>
+									<h3><a style="" href="http://mdlwp.com/demo/quisque-libero-metus-condimentum-nec/"
+										   rel="bookmark">Quisque libero metus condimentum nec</a></h3></header>
+								<!-- .entry-header -->
+							</div>
+
+							<div class="entry-content mdl-color-text--grey-600 mdl-card__supporting-text">
+								<p>Ut a nisl id ante tempus hendrerit. Vestibulum ante ipsum primis in faucibus orci
+									luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia.
+									Phasellus accumsan cursus velit. Nullam cursus lacinia erat. Proin pretium, leo ac
+									pellentesque mollis, felis nunc ultrices eros, sed gravida augue augue mollis
+									justo.</p>
+								<p>Etiam imperdiet imperdiet orci. Sed aliquam ultrices mauris. Fusce a quam. Nam
+									pretium turpis et arcu. Donec interdum, metus et hendrerit aliquet, dolor diam
+									sagittis ligula, eget egestas libero turpis vel mi.</p>
+								<p>
+									<a class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect"
+									   href="http://mdlwp.com/demo/quisque-libero-metus-condimentum-nec/">Read More</a>
+								</p>
+
+							</div><!-- .entry-content -->
+
+							<footer class="entry-footer meta mdl-card__actions mdl-card--border">
+
+								<div class="avatar-img">
+									<img alt=''
+										 src='http://1.gravatar.com/avatar/70cf167a8a0a7fc3d83950b60cb537a7?s=32&#038;d=mm&#038;r=g'
+										 srcset='http://1.gravatar.com/avatar/70cf167a8a0a7fc3d83950b60cb537a7?s=64&amp;d=mm&amp;r=g 2x'
+										 class='avatar avatar-32 photo' height='32' width='32'/></div>
+
+								<div class="entry-meta">
+									<strong class="byline"> <span class="author vcard"><a class="url fn n"
+																						  href="http://mdlwp.com/demo/author/dmin/">BragInteractive</a></span></strong>
+									<span class="posted-on"><a
+											href="http://mdlwp.com/demo/quisque-libero-metus-condimentum-nec/"
+											rel="bookmark">
+										<time class="entry-date published updated" datetime="2015-07-10T18:45:20+00:00">
+											July 10, 2015
+										</time>
+									</a></span></div><!-- .entry-meta -->
+
+							</footer><!-- .entry-footer -->
+						</article><!-- #post-## -->
+					</div><!-- .mdl-cell -->
+
+
+					<div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--2dp">
+						<article id="post-56"
+								 class="post-56 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-dark tag-lights tag-tag">
+
+							<div class="mdl-card__media"
+								 style="background-image: url('http://mdlwp.com/demo/wp-content/uploads/2015/07/cityscape-traffic.jpg'); ">
+								<header>
+									<h3><a style="" href="http://mdlwp.com/demo/praesent-nec-nisl-a-purus/"
+										   rel="bookmark">Praesent nec nisl a purus</a></h3></header>
+								<!-- .entry-header -->
+							</div>
+
+							<div class="entry-content mdl-color-text--grey-600 mdl-card__supporting-text">
+								<p>Fusce egestas elit eget lorem. Fusce vulputate eleifend sapien. Vestibulum
+									ullamcorper mauris at ligula. Aenean commodo ligula eget dolor. Praesent venenatis
+									metus at tortor pulvinar varius.</p>
+								<p>Pellentesque egestas, neque sit amet convallis pulvinar, justo nulla eleifend augue,
+									ac auctor orci leo non est. Curabitur nisi. Morbi mollis tellus ac sapien. Nam quam
+									nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Cras id dui.</p>
+								<p>Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis tellus,
+									vitae iaculis lacus elit id tortor. Maecenas vestibulum mollis diam. Aenean
+									vulputate eleifend tellus. In hac habitasse platea dictumst. Pellentesque habitant
+									morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+								<p>
+									<a class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect"
+									   href="http://mdlwp.com/demo/praesent-nec-nisl-a-purus/">Read More</a></p>
+
+							</div><!-- .entry-content -->
+
+							<footer class="entry-footer meta mdl-card__actions mdl-card--border">
+
+								<div class="avatar-img">
+									<img alt=''
+										 src='http://1.gravatar.com/avatar/70cf167a8a0a7fc3d83950b60cb537a7?s=32&#038;d=mm&#038;r=g'
+										 srcset='http://1.gravatar.com/avatar/70cf167a8a0a7fc3d83950b60cb537a7?s=64&amp;d=mm&amp;r=g 2x'
+										 class='avatar avatar-32 photo' height='32' width='32'/></div>
+
+								<div class="entry-meta">
+									<strong class="byline"> <span class="author vcard"><a class="url fn n"
+																						  href="http://mdlwp.com/demo/author/dmin/">BragInteractive</a></span></strong>
+									<span class="posted-on"><a href="http://mdlwp.com/demo/praesent-nec-nisl-a-purus/"
+															   rel="bookmark">
+										<time class="entry-date published updated" datetime="2015-07-10T18:44:32+00:00">
+											July 10, 2015
+										</time>
+									</a></span></div><!-- .entry-meta -->
+
+							</footer><!-- .entry-footer -->
+						</article><!-- #post-## -->
+					</div><!-- .mdl-cell -->
+
+
+					<div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--2dp">
+						<article id="post-54"
+								 class="post-54 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-river tag-tag tag-water">
+
+							<div class="mdl-card__media"
+								 style="background-image: url('http://mdlwp.com/demo/wp-content/uploads/2015/07/landscape-forest-river.jpg'); ">
+								<header>
+									<h3><a style="" href="http://mdlwp.com/demo/vestibulum-rutrum-mi-nec-elementum/"
+										   rel="bookmark">Vestibulum rutrum mi nec elementum</a></h3></header>
+								<!-- .entry-header -->
+							</div>
+
+							<div class="entry-content mdl-color-text--grey-600 mdl-card__supporting-text">
+								<p>Fusce egestas elit eget lorem. Fusce vulputate eleifend sapien. Vestibulum
+									ullamcorper mauris at ligula. Aenean commodo ligula eget dolor. Praesent venenatis
+									metus at tortor pulvinar varius.</p>
+								<p>Pellentesque egestas, neque sit amet convallis pulvinar, justo nulla eleifend augue,
+									ac auctor orci leo non est. Curabitur nisi. Morbi mollis tellus ac sapien. Nam quam
+									nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Cras id dui.</p>
+								<p>
+									<a class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect"
+									   href="http://mdlwp.com/demo/vestibulum-rutrum-mi-nec-elementum/">Read More</a>
+								</p>
+
+							</div><!-- .entry-content -->
+
+							<footer class="entry-footer meta mdl-card__actions mdl-card--border">
+
+								<div class="avatar-img">
+									<img alt=''
+										 src='http://1.gravatar.com/avatar/70cf167a8a0a7fc3d83950b60cb537a7?s=32&#038;d=mm&#038;r=g'
+										 srcset='http://1.gravatar.com/avatar/70cf167a8a0a7fc3d83950b60cb537a7?s=64&amp;d=mm&amp;r=g 2x'
+										 class='avatar avatar-32 photo' height='32' width='32'/></div>
+
+								<div class="entry-meta">
+									<strong class="byline"> <span class="author vcard"><a class="url fn n"
+																						  href="http://mdlwp.com/demo/author/dmin/">BragInteractive</a></span></strong>
+									<span class="posted-on"><a
+											href="http://mdlwp.com/demo/vestibulum-rutrum-mi-nec-elementum/"
+											rel="bookmark">
+										<time class="entry-date published updated" datetime="2015-07-10T18:43:50+00:00">
+											July 10, 2015
+										</time>
+									</a></span></div><!-- .entry-meta -->
+
+							</footer><!-- .entry-footer -->
+						</article><!-- #post-## -->
+					</div><!-- .mdl-cell -->
+
+
+					<div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--2dp">
+						<article id="post-52"
+								 class="post-52 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-snow tag-tag tag-white">
+
+							<div class="mdl-card__media"
+								 style="background-image: url('http://mdlwp.com/demo/wp-content/uploads/2015/07/landscape-melting-snow.jpg'); ">
+								<header>
+									<h3><a style="" href="http://mdlwp.com/demo/phasellus-viverra-nulla-ut-metus/"
+										   rel="bookmark">Phasellus viverra nulla ut metus</a></h3></header>
+								<!-- .entry-header -->
+							</div>
+
+							<div class="entry-content mdl-color-text--grey-600 mdl-card__supporting-text">
+								<p>Proin magna. Fusce pharetra convallis urna. Vestibulum rutrum, mi nec elementum
+									vehicula, eros quam gravida nisl, id fringilla neque ante vel mi. Curabitur ligula
+									sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Morbi mollis tellus ac
+									sapien.</p>
+								<p>
+									<a class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect"
+									   href="http://mdlwp.com/demo/phasellus-viverra-nulla-ut-metus/">Read More</a></p>
+
+							</div><!-- .entry-content -->
+
+							<footer class="entry-footer meta mdl-card__actions mdl-card--border">
+
+								<div class="avatar-img">
+									<img alt=''
+										 src='http://1.gravatar.com/avatar/70cf167a8a0a7fc3d83950b60cb537a7?s=32&#038;d=mm&#038;r=g'
+										 srcset='http://1.gravatar.com/avatar/70cf167a8a0a7fc3d83950b60cb537a7?s=64&amp;d=mm&amp;r=g 2x'
+										 class='avatar avatar-32 photo' height='32' width='32'/></div>
+
+								<div class="entry-meta">
+									<strong class="byline"> <span class="author vcard"><a class="url fn n"
+																						  href="http://mdlwp.com/demo/author/dmin/">BragInteractive</a></span></strong>
+									<span class="posted-on"><a
+											href="http://mdlwp.com/demo/phasellus-viverra-nulla-ut-metus/"
+											rel="bookmark">
+										<time class="entry-date published updated" datetime="2015-07-10T18:39:31+00:00">
+											July 10, 2015
+										</time>
+									</a></span></div><!-- .entry-meta -->
+
+							</footer><!-- .entry-footer -->
+						</article><!-- #post-## -->
+					</div><!-- .mdl-cell -->
+
+
+					<div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--2dp">
+						<article id="post-50"
+								 class="post-50 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-blue tag-tag tag-water">
+
+							<div class="mdl-card__media"
+								 style="background-image: url('http://mdlwp.com/demo/wp-content/uploads/2015/07/landscape-mountains-lake.jpg');height:400px; ">
+								<header>
+									<h3><a style="" href="http://mdlwp.com/demo/donec-vitae-sapien-ut-libero/"
+										   rel="bookmark">Donec vitae sapien ut libero</a></h3></header>
+								<!-- .entry-header -->
+							</div>
+
+							<div class="entry-content mdl-color-text--grey-600 mdl-card__supporting-text">
+								<p>Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis tellus,
+									vitae iaculis lacus elit id tortor. Cras non dolor. Aenean posuere, tortor sed
+									cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.
+									Ut non enim eleifend felis pretium feugiat. Aenean ut eros et nisl sagittis
+									vestibulum.</p>
+								<p>Vestibulum dapibus nunc ac augue. Donec vitae orci sed dolor rutrum auctor. Donec
+									elit libero, sodales nec, volutpat a, suscipit non, turpis. Pellentesque egestas,
+									neque sit amet convallis pulvinar, justo nulla eleifend augue, ac auctor orci leo
+									non est. Fusce vulputate eleifend sapien.</p>
+								<p>Pellentesque egestas, neque sit amet convallis pulvinar, justo nulla eleifend augue,
+									ac auctor orci leo non est. Vestibulum volutpat pretium libero. Duis arcu tortor,
+									suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Etiam sollicitudin, ipsum eu
+									pulvinar rutrum, tellus ipsum laoreet sapien, quis venenatis ante odio sit amet
+									eros. Phasellus tempus.</p>
+								<p>
+									<a class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect"
+									   href="http://mdlwp.com/demo/donec-vitae-sapien-ut-libero/">Read More</a></p>
+
+							</div><!-- .entry-content -->
+
+							<footer class="entry-footer meta mdl-card__actions mdl-card--border">
+
+								<div class="avatar-img">
+									<img alt=''
+										 src='http://1.gravatar.com/avatar/70cf167a8a0a7fc3d83950b60cb537a7?s=32&#038;d=mm&#038;r=g'
+										 srcset='http://1.gravatar.com/avatar/70cf167a8a0a7fc3d83950b60cb537a7?s=64&amp;d=mm&amp;r=g 2x'
+										 class='avatar avatar-32 photo' height='32' width='32'/></div>
+
+								<div class="entry-meta">
+									<strong class="byline"> <span class="author vcard"><a class="url fn n"
+																						  href="http://mdlwp.com/demo/author/dmin/">BragInteractive</a></span></strong>
+									<span class="posted-on"><a
+											href="http://mdlwp.com/demo/donec-vitae-sapien-ut-libero/" rel="bookmark">
+										<time class="entry-date published updated" datetime="2015-07-10T18:38:08+00:00">
+											July 10, 2015
+										</time>
+									</a></span></div><!-- .entry-meta -->
+
+							</footer><!-- .entry-footer -->
+						</article><!-- #post-## -->
+					</div><!-- .mdl-cell -->
+
+
+					<div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--2dp">
+						<article id="post-48"
+								 class="post-48 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-tag tag-water">
+
+							<div class="mdl-card__media"
+								 style="background-image: url('http://mdlwp.com/demo/wp-content/uploads/2015/07/landscape-river.jpg');height:150px; ">
+								<header>
+									<h3><a style="" href="http://mdlwp.com/demo/smaller-size/" rel="bookmark">Smaller
+										Size</a></h3></header><!-- .entry-header -->
+							</div>
+
+							<div class="entry-content mdl-color-text--grey-600 mdl-card__supporting-text">
+								<p>Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis tellus,
+									vitae iaculis lacus elit id tortor. Cras non dolor. Aenean posuere, tortor sed
+									cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.
+									Ut non enim eleifend felis pretium feugiat. Aenean ut eros et nisl sagittis
+									vestibulum.</p>
+								<p>Vestibulum dapibus nunc ac augue. Donec vitae orci sed dolor rutrum auctor. Donec
+									elit libero, sodales nec, volutpat a, suscipit non, turpis. Pellentesque egestas,
+									neque sit amet convallis pulvinar, justo nulla eleifend augue, ac auctor orci leo
+									non est. Fusce vulputate eleifend sapien.</p>
+								<p>
+									<a class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect"
+									   href="http://mdlwp.com/demo/smaller-size/">Read More</a></p>
+
+							</div><!-- .entry-content -->
+
+							<footer class="entry-footer meta mdl-card__actions mdl-card--border">
+
+								<div class="avatar-img">
+									<img alt=''
+										 src='http://1.gravatar.com/avatar/70cf167a8a0a7fc3d83950b60cb537a7?s=32&#038;d=mm&#038;r=g'
+										 srcset='http://1.gravatar.com/avatar/70cf167a8a0a7fc3d83950b60cb537a7?s=64&amp;d=mm&amp;r=g 2x'
+										 class='avatar avatar-32 photo' height='32' width='32'/></div>
+
+								<div class="entry-meta">
+									<strong class="byline"> <span class="author vcard"><a class="url fn n"
+																						  href="http://mdlwp.com/demo/author/dmin/">BragInteractive</a></span></strong>
+									<span class="posted-on"><a href="http://mdlwp.com/demo/smaller-size/"
+															   rel="bookmark">
+										<time class="entry-date published updated" datetime="2015-07-10T18:37:00+00:00">
+											July 10, 2015
+										</time>
+									</a></span></div><!-- .entry-meta -->
+
+							</footer><!-- .entry-footer -->
+						</article><!-- #post-## -->
+					</div><!-- .mdl-cell -->
+
+
+					<div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--2dp">
+						<article id="post-46"
+								 class="post-46 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-snow tag-tag">
+
+							<div class="mdl-card__media"
+								 style="background-image: url('http://mdlwp.com/demo/wp-content/uploads/2015/07/landscape-ski-lift.jpg'); ">
+								<header>
+									<h3><a style="color:#000000;" href="http://mdlwp.com/demo/title-color-change/"
+										   rel="bookmark">Title Color Change</a></h3></header><!-- .entry-header -->
+							</div>
+
+							<div class="entry-content mdl-color-text--grey-600 mdl-card__supporting-text">
+								<p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nam eget dui. Fusce
+									risus nisl, viverra et, tempor et, pretium in, sapien. Donec elit libero, sodales
+									nec, volutpat a, suscipit non, turpis. Vivamus aliquet elit ac nisl.</p>
+								<p>Aenean vulputate eleifend tellus. Mauris turpis nunc, blandit et, volutpat molestie,
+									porta ut, ligula. Phasellus accumsan cursus velit. Nullam nulla eros, ultricies sit
+									amet, nonummy id, imperdiet feugiat, pede. Aliquam lorem ante, dapibus in, viverra
+									quis, feugiat a, tellus.</p>
+								<p>
+									<a class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect"
+									   href="http://mdlwp.com/demo/title-color-change/">Read More</a></p>
+
+							</div><!-- .entry-content -->
+
+							<footer class="entry-footer meta mdl-card__actions mdl-card--border">
+
+								<div class="avatar-img">
+									<img alt=''
+										 src='http://1.gravatar.com/avatar/70cf167a8a0a7fc3d83950b60cb537a7?s=32&#038;d=mm&#038;r=g'
+										 srcset='http://1.gravatar.com/avatar/70cf167a8a0a7fc3d83950b60cb537a7?s=64&amp;d=mm&amp;r=g 2x'
+										 class='avatar avatar-32 photo' height='32' width='32'/></div>
+
+								<div class="entry-meta">
+									<strong class="byline"> <span class="author vcard"><a class="url fn n"
+																						  href="http://mdlwp.com/demo/author/dmin/">BragInteractive</a></span></strong>
+									<span class="posted-on"><a href="http://mdlwp.com/demo/title-color-change/"
+															   rel="bookmark">
+										<time class="entry-date published updated" datetime="2015-07-10T18:35:57+00:00">
+											July 10, 2015
+										</time>
+									</a></span></div><!-- .entry-meta -->
+
+							</footer><!-- .entry-footer -->
+						</article><!-- #post-## -->
+					</div><!-- .mdl-cell -->
+
+
+					<div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--2dp">
+						<article id="post-44"
+								 class="post-44 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-night tag-tag">
+
+							<div class="mdl-card__media"
+								 style="background-image: url('http://mdlwp.com/demo/wp-content/uploads/2015/07/landscape-stars.jpg'); ">
+								<header>
+									<h3><a style="" href="http://mdlwp.com/demo/praesent-nec-nisl-a/" rel="bookmark">Praesent
+										nec nisl a</a></h3></header><!-- .entry-header -->
+							</div>
+
+							<div class="entry-content mdl-color-text--grey-600 mdl-card__supporting-text">
+								<p>Nulla porta dolor. Suspendisse feugiat. Nullam vel sem. Cras risus ipsum, faucibus
+									ut, ullamcorper id, varius ac, leo. Nam commodo suscipit quam.</p>
+								<p>
+									<a class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect"
+									   href="http://mdlwp.com/demo/praesent-nec-nisl-a/">Read More</a></p>
+
+							</div><!-- .entry-content -->
+
+							<footer class="entry-footer meta mdl-card__actions mdl-card--border">
+
+								<div class="avatar-img">
+									<img alt=''
+										 src='http://1.gravatar.com/avatar/70cf167a8a0a7fc3d83950b60cb537a7?s=32&#038;d=mm&#038;r=g'
+										 srcset='http://1.gravatar.com/avatar/70cf167a8a0a7fc3d83950b60cb537a7?s=64&amp;d=mm&amp;r=g 2x'
+										 class='avatar avatar-32 photo' height='32' width='32'/></div>
+
+								<div class="entry-meta">
+									<strong class="byline"> <span class="author vcard"><a class="url fn n"
+																						  href="http://mdlwp.com/demo/author/dmin/">BragInteractive</a></span></strong>
+									<span class="posted-on"><a href="http://mdlwp.com/demo/praesent-nec-nisl-a/"
+															   rel="bookmark">
+										<time class="entry-date published updated" datetime="2015-07-10T18:35:14+00:00">
+											July 10, 2015
+										</time>
+									</a></span></div><!-- .entry-meta -->
+
+							</footer><!-- .entry-footer -->
+						</article><!-- #post-## -->
+					</div><!-- .mdl-cell -->
+
+
+					<div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--2dp">
+						<article id="post-41"
+								 class="post-41 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-tag tag-water">
+
+							<div class="mdl-card__media"
+								 style="background-image: url('http://mdlwp.com/demo/wp-content/uploads/2015/07/landscape-water-beach.jpg');height:400px; ">
+								<header>
+									<h3><a style="" href="http://mdlwp.com/demo/class-aptent-taciti/" rel="bookmark">Class
+										aptent taciti</a></h3></header><!-- .entry-header -->
+							</div>
+
+							<div class="entry-content mdl-color-text--grey-600 mdl-card__supporting-text">
+								<p>Sed cursus turpis vitae tortor. Duis arcu tortor, suscipit eget, imperdiet nec,
+									imperdiet iaculis, ipsum. Curabitur vestibulum aliquam leo. Praesent turpis.
+									Praesent nec nisl a purus blandit viverra.</p>
+								<p>Etiam imperdiet imperdiet orci. Integer ante arcu, accumsan a, consectetuer eget,
+									posuere ut, mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+									posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nunc sed turpis.
+									Praesent porttitor, nulla vitae posuere iaculis, arcu nisl dignissim dolor, a
+									pretium mi sem ut ipsum.</p>
+								<p> Duis leo. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+									Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Nullam
+									tincidunt adipiscing enim.</p>
+								<p>
+									<a class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect"
+									   href="http://mdlwp.com/demo/class-aptent-taciti/">Read More</a></p>
+
+							</div><!-- .entry-content -->
+
+							<footer class="entry-footer meta mdl-card__actions mdl-card--border">
+
+								<div class="avatar-img">
+									<img alt=''
+										 src='http://1.gravatar.com/avatar/70cf167a8a0a7fc3d83950b60cb537a7?s=32&#038;d=mm&#038;r=g'
+										 srcset='http://1.gravatar.com/avatar/70cf167a8a0a7fc3d83950b60cb537a7?s=64&amp;d=mm&amp;r=g 2x'
+										 class='avatar avatar-32 photo' height='32' width='32'/></div>
+
+								<div class="entry-meta">
+									<strong class="byline"> <span class="author vcard"><a class="url fn n"
+																						  href="http://mdlwp.com/demo/author/dmin/">BragInteractive</a></span></strong>
+									<span class="posted-on"><a href="http://mdlwp.com/demo/class-aptent-taciti/"
+															   rel="bookmark">
+										<time class="entry-date published updated" datetime="2015-07-10T18:33:39+00:00">
+											July 10, 2015
+										</time>
+									</a></span></div><!-- .entry-meta -->
+
+							</footer><!-- .entry-footer -->
+						</article><!-- #post-## -->
+					</div><!-- .mdl-cell -->
+
+
+					<nav class="mdlwp-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col" role="navigation">
+
+
+						<div class="section-spacer"></div>
+						<a href="http://mdlwp.com/demo/page/2/" class="mdlwp-nav__button">Older
+							<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+								<i class="material-icons">arrow_forward</i>
+							</button>
+						</a>
+					</nav><!-- .navigation -->
+
+
+				</main><!-- #main -->
+			</div><!-- #primary -->
+
+
+		</div><!-- #content -->
+
+		<footer class="mdl-mega-footer">
+			<div class="mdl-mega-footer--middle-section">
+				<div id="mdlwp_widget-2" class="mdl-mega-footer--drop-down-section footer-widget widget_mdlwp_widget">
+					<input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+					<h1 class="mdl-mega-footer--heading footer-title">Material Design Links</h1>
+					<ul class="mdl-mega-footer--link-list">
+						<li><a target="_blank" href="http://www.getmdl.io/">Material Design Lite</a></li>
+						<li><a target="_blank"
+							   href="https://www.google.com/design/spec/material-design/introduction.html">Material
+							Design</a></li>
+						<li><a target="_blank" href="http://google.com">Google</a></li>
+					</ul>
+				</div>
+				<div id="mdlwp_widget-3" class="mdl-mega-footer--drop-down-section footer-widget widget_mdlwp_widget">
+					<input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+					<h1 class="mdl-mega-footer--heading footer-title">Brag Interactive</h1>
+					<ul class="mdl-mega-footer--link-list">
+						<li><a target="_blank" href="http://twitter.com/braginteractive">Twitter</a></li>
+						<li><a target="_blank" href="http://github.com/braginteractive">GitHub</a></li>
+						<li><a target="_blank" href="http://facebook.com/braginteracitve">Facebook</a></li>
+					</ul>
+				</div>
+				<div id="mdlwp_widget-4" class="mdl-mega-footer--drop-down-section footer-widget widget_mdlwp_widget">
+					<input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+					<h1 class="mdl-mega-footer--heading footer-title">WordPress Themes</h1>
+					<ul class="mdl-mega-footer--link-list">
+						<li><a target="_blank" href="http://materialdesignthemes.com">Material Design Themes</a></li>
+						<li><a target="_blank" href="http://bootstrapwp.com">BootstrapWP</a></li>
+						<li><a target="_blank" href="http://bragthemes.com">Brag Themes</a></li>
+					</ul>
+				</div>
+				<div id="text-2" class="mdl-mega-footer--drop-down-section footer-widget widget_text"><h1
+						class="mdl-mega-footer--heading footer-title">Demo</h1>
+					<div class="textwidget">This is a demo for the Material Design Lite WordPress theme called MDLWP.
+						Pull request on GitHub welcome!
+					</div>
+				</div>
+			</div>
+
+			<div class="mdl-mega-footer--bottom-section">
+				<ul id="menu-footer" class="mdl-mega-footer--link-list">
+					<li id="menu-item-33"
+						class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-33">
+						<a href="/demo/">Home</a></li>
+					<li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34">
+						<a href="http://mdlwp.com/demo/page-layout/">Default Page</a></li>
+					<li id="menu-item-64" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-64">
+						<a href="http://mdlwp.com/demo/setup-video/">Setup Video</a></li>
+					<li id="menu-item-73" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-73">
+						<a href="http://mdlwp.com/demo/ribbon-page/">Ribbon Page</a></li>
+				</ul>
+			</div>
+		</footer>
+
+	</main> <!-- .mdl-layout__content -->
+</div><!-- #page -->
+
+<!--<script type='text/javascript' src='http://mdlwp.com/demo/wp-content/plugins/material-social/includes/js/material-social.js?ver=1.0.0'></script>-->
+<!--<script type='text/javascript' src='http://mdlwp.com/demo/wp-content/plugins/material-social/bower_components/rrssb/js/rrssb.min.js?ver=1.0.0'></script>-->
+<!--<script type='text/javascript' src='http://mdlwp.com/demo/wp-content/plugins/mdlwp-masonry/includes/js/isotope.pkgd.min.js?ver=2.2.0'></script>-->
+<!--<script type='text/javascript' src='http://mdlwp.com/demo/wp-content/plugins/mdlwp-masonry/bower_components/imagesloaded/imagesloaded.pkgd.min.js?ver=1.0.0'></script>-->
+<script type='text/javascript'
+		src='http://mdlwp.com/demo/wp-content/plugins/mdlwp-masonry/includes/js/mdlwp-masonry.js?ver=1.0.0'></script>
+<script type='text/javascript'
+		src='http://mdlwp.com/demo/wp-content/plugins/mdlwp-portfolio/includes/js/jquery.mixitup.min.js?ver=2.1.9'></script>
+<script type='text/javascript' src='//storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js?ver=1.0.4'></script>
+</body>
+</html>
