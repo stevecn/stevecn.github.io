@@ -407,6 +407,7 @@ footer p + p {
 
 .listing-item a:hover {
   text-decoration: underline;
+  transition: .2s ease-out;
 }
 
 .pagination {
