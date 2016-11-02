@@ -401,8 +401,12 @@ footer p + p {
   display: block;
 }
 
+.listing-item a {
+  text-decoration: none;
+}
+
 .listing-item a:hover {
-  text-decoration: inherit;
+  color: red;
 }
 
 .pagination {
