@@ -3,7 +3,7 @@ layout: default-simple
 ---
 <a href="/">返回首页</a>
 <h3>{{ page.title }}</h3>
-<span class="date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date:"%Y 年 %m 月 %d 日" }}</span>
+<time class="date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date:"%Y 年 %m 月 %d 日" }}</time>
 <div id="post">
 {{ content }}
     <!--<div class="navigation">-->
