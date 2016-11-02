@@ -5,7 +5,7 @@ A student(Mianzhong Experimental School && Nanjing University)
 
 Contact me:
 
-> * Email: <a href='mai&#108;&#116;o&#58;&#109;%65&#64;do%&#54;7stev&#37;6&#53;&#46;c&#37;&#54;F&#37;&#54;D'>me&#64;dog&#115;t&#101;ve&#46;co&#109;</a>
+> ![](http://blog.xiangyangli.com/images/email.png "Email address")
 
 　　Oranges and lemons,
 
