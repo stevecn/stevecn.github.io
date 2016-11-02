@@ -1,5 +1,5 @@
 markdown: kramdown
 highlighter: rouge
-paginate: 5
+paginate: 10
 excerpt_separator: "<!--more-->"
 paginate_path: "/page:num/"
