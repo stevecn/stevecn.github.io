@@ -10,12 +10,6 @@ description: Steve's blog
     <div class="listing-item">
         <a href="{{ post.url }}" title="{{ post.title }}"><h3 class="link">{{ post.title }}</h3></a>
         <time class="date" datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y 年 %m 月 %d 日" }}</time>
-        <p class="post-summary">{{ post.excerpt }}</p>
-        <div class="post-footer">
-            <span class="read-more">
-                <a href="{{ post.url }}" title="{{ post.title }}">阅读全文</a>
-            </span>
-        </div>
     </div>
 
     {% endif %}
