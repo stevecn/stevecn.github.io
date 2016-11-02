@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<h2>{{ page.title }}</h2>
+<time class="date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date:"%Y 年 %m 月 %d 日" }}</time>
+<div id="post">
+{{ content }}
+    <div class="navigation">
+    <span>
+    {% if page.next %}
+    &laquo;  <a href="{{ page.next.url }}" title="{{ page.next.title }}"> {{ page.next.title }}</a>
+    </span>
+    {% else %}
+    <span>
+    &laquo;  <a href="#">已是最新文章</a>
+    {% endif %}
+    </span>
+    {% if page.previous %}
+    <span style="float:right">
+      <a  href="{{ page.previous.url }}" title="{{ page.previous.title }}">{{ page.previous.title }}</a>&raquo;
+    </span>
+    {% else %}
+    <span style="float:right">
+    <a href="#">已是最早文章</a>&raquo;
+    </span>
+    {% endif %}
+    <div style="clear:both;"></div>
+    </div>
+</div>

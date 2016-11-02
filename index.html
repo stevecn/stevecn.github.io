@@ -1,0 +1,33 @@
+---
+layout: default
+title: Steve Lee's blog
+description: Steve's blog
+---
+
+<div id="home">
+    {% for post in paginator.posts %}
+    {% if post.category == 'blog' %}
+    <div class="listing-item">
+            <a href="{{ post.url }}" title="{{ post.title }}"><h2 class="link">{{ post.title }}</h2></a>
+      <time class="date" datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y 年 %m 月 %d 日" }}</time>
+      <p class="post-summary">{{ post.excerpt }}</p>
+      <div class="readmore">
+        <a href="{{ post.url }}" title="{{ post.title }}">阅读全文</a>
+      </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+    <br />
+    {% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a class="pre" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; 上一页</a>
+  {% endif %}
+
+  {% if paginator.next_page %}
+    <a class="next" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"> 下一页
+&raquo;</a>
+  {% endif %}
+</div>
+{% endif %}
+</div>
