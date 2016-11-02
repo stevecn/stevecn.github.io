@@ -357,19 +357,19 @@ footer p + p {
   color: #777777;
 }
 
-.readmore {
+.read-more {
   margin: 0 20px 30px 20px;
   text-align: right;
 }
 
-.readmore a {
+.read-more a {
   padding: 5px;
   border: 1px solid #bfd0df;
   transition: .2s ease-out;
 }
 
 
-.readmore a:hover {
+.read-more a:hover {
   color: #FFF;
   background: #426485;
 }
