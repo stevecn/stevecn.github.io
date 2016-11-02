@@ -100,7 +100,7 @@ header ul {
   height: 38px;
   background: #426485;
   border: 1px solid #FFFFFF;
-  width: 420px;
+  width: 350px;
 }
 header ul:before {
   content: '';
