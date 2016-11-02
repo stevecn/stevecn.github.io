@@ -12,9 +12,9 @@ description: Steve's blog
         <time class="date" datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y 年 %m 月 %d 日" }}</time>
         <p class="post-summary">{{ post.excerpt }}</p>
         <div class="post-footer">
-            <div class="read-more">
+            <span class="read-more">
                 <a href="{{ post.url }}" title="{{ post.title }}">阅读全文</a>
-            </div>
+            </span>
         </div>
     </div>
 

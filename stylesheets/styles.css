@@ -358,8 +358,8 @@ footer p + p {
 }
 
 .read-more {
-  margin: 0 20px 30px 20px;
-  text-align: right;
+  /*margin: 0 20px 30px 20px;*/
+  /*text-align: right;*/
 }
 
 .read-more a {
@@ -431,4 +431,6 @@ footer p + p {
 
 .post-footer {
   border-bottom: 1px solid #dae0e6;
+  height: 35px;
+  margin-bottom: 40px;
 }
