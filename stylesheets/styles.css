@@ -406,7 +406,7 @@ footer p + p {
 }
 
 .listing-item a:hover {
-  text-decoration: inherit;
+  text-decoration: underline;
 }
 
 .pagination {
