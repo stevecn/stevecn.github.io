@@ -169,7 +169,7 @@ header ul a:hover {
   line-height: 1;
   font-size: 11px;
   color: red;
-  color: rgba(255, 255, 255, 0.8);
+  /*color: rgba(255, 255, 255, 0.8);*/
   display: block;
   text-align: center;
   font-weight: 400;
