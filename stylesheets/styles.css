@@ -428,3 +428,7 @@ footer p + p {
 .navigation {
 
 }
+
+.post-footer {
+  border-bottom: 1px solid;
+}
