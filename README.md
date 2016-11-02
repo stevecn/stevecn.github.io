@@ -1,2 +1,0 @@
-# stevecn.github.io
-Blog
