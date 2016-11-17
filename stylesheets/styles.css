@@ -457,3 +457,7 @@ footer p + p {
   height: 35px;
   margin-bottom: 40px;
 }
+
+.license {
+  text-align: left;
+}
