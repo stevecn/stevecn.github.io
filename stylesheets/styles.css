@@ -16,7 +16,6 @@ body {
   margin: 0;
   font: 14px/1.5 "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
   color: #222;
-  outline: 0 none;
   /*background: url("/images/b16.png");*/
 }
 
@@ -45,6 +44,7 @@ header, section, footer {
 a {
   color: #428bca;
   text-decoration: none;
+  outline: 0 none;
 }
 
 p {
