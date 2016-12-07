@@ -3,4 +3,4 @@ highlighter: rouge
 paginate: 10
 excerpt_separator: "<!--more-->"
 paginate_path: "/page:num/"
-assert_url: "blog-1251886540.file.myqcloud.com"
+assert_url: "http://blog-1251886540.file.myqcloud.com"
