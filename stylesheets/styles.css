@@ -4,7 +4,7 @@
   font-style: normal;
   font-weight: 400;
   src: local('Kaushan Script'), local('KaushanScript-Regular'),
-  url("../fonts/kaushan.woff") format('woff');
+  url("http://blog.xiangyangli.com/fonts/kaushan.woff") format('woff');
 }
 
 html {
