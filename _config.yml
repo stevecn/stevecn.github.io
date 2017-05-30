@@ -4,4 +4,4 @@ paginate: 10
 excerpt_separator: "<!--more-->"
 paginate_path: "/page:num/"
 #assert_url: "http://blog-1251886540.file.myqcloud.com"
-assert_url: "/"
+assert_url: "http://blog.xiangyangli.com"
